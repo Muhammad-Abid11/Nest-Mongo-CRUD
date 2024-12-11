@@ -6,7 +6,7 @@ import { TodoModule } from './todo/todo.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb+srv://nestUser:nestUserPassword@cluster0.fvnly.mongodb.net/'),
+    MongooseModule.forRoot('your_connection_string'),
     TodoModule,
   ],
   controllers: [AppController],
